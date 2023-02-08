@@ -21,8 +21,12 @@ export default function Layout({ children, initialized }: Props) {
       justify="center"
       alignItems="center"
       css={{
+        /*
         width: '100vw',
         height: '100vh',
+        */
+        width: '400px',
+        height: '600px',
         paddingLeft: 0,
         paddingRight: 0
       }}
